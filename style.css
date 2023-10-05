@@ -1,0 +1,87 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
+
+
+h1 {
+    font-family: 'Sacramento', cursive;
+    font-weight: lighter;
+    font-size: 50px;
+}
+
+h2 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1;
+    color: #fff;
+    background-color: black;
+    max-width: fit-content;
+    max-height: fit-content;
+    margin:auto;
+}
+
+h2, h3 {
+    font-family: 'Dosis', sans-serif;
+}
+
+h1, h2, h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body::before {
+    content: "";
+    background: url('https://media3.giphy.com/media/5zheTUHRhWkiKylaZ9/giphy.gif?cid=ecf05e47j6y5dook4jhw05oxidfdqyscb9upm6wblk6m13de&ep=v1_gifs_search&rid=giphy.gif&ct=g') repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    opacity: 0.35;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    z-index: -1;   
+}
+
+body {
+    background-color: white;
+}
+
+
+hr {
+    border: none;
+    border-top: 1px solid white; 
+}
+
+  .div1, .div2, .div3, .div4, .div5, .div6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div1 img, .div2 img, .div3 img, .div4 img, .div5 img, .div6 img {
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+}
+
+.links a {
+    color: black;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 5px;
+    border: 2.5px;
+    border-color: black;
+    border-style:solid;
+    background-color: #ffffff7c;
+}
